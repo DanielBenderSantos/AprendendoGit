@@ -61,3 +61,7 @@ De forma resumida o Merge serve para unir branch mantendo o historico mais crian
 c1-c2----c5-----c6  
      \--c3-c4-/
 (os c sao comites c1,c2 e c5 sao do master  c3 e c4 sao de uma ramificação usando o marge unimos ambos com um novo comir o c6)
+
+Rebase
+
+Diferende do Marge que cria um comit novo o Rebase pega as mudanças do Branch e coloca no inicio da fila ou seja ele pega td aquilo que foi feito em outro Branch e comita como se fosse um novo comite linear mantendo assim uma unica ramificação, entretanto perdese o historico cronologico e pode gerar problemas caso mais de uma pessoa esteja trabalhando no mesmo 'arquivo' que foi midificado com o Rebase
